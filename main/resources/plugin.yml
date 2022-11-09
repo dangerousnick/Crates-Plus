@@ -1,0 +1,12 @@
+name: CratesPlusReloaded
+version: "2.1-SNAPSHOT"
+main: jorisfort.cratesplusreloaded.Main
+api-version: 1.16
+authors: [ JorisFort ]
+commands:
+  crate:
+    description: "Main command"
+permissions:
+  cratesPlusReloaded.admin:
+    default: op
+
